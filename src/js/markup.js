@@ -6,7 +6,6 @@ console.log(galleryRef);
 
 // Вставка макета
 const markup = itemsTemplate({menu})
-console.log(markup);
 
 galleryRef.insertAdjacentHTML('beforeend', markup)
 
